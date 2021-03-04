@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;700&display=swap');
+
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+h2,
+h4,
+p,
+ul {
+    margin-bottom: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+body {
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+/*header part*/
+.header-box ul li i {
+    vertical-align: middle;
+    margin-left: 8px;
+}
+
+/*banner part*/
+
+.banner-box {
+    height: 550px;
+    width: 100%;
+    background-image: url("../img/banner1.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.banner-box::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .6);
+    top: 0;
+    left: 0;
+}
+
+.banner-content {
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99;
+}
+
+.banner-content h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.banner-content p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    padding: 0 80px;
+    margin: 30px 0;
+}
+
+.banner-content a {
+    font-size: 14px;
+    font-width: 400;
+}
+
+.banner-content a:hover i {
+    transform: rotate(-90deg);
+    transition: all .4s;
+}
+
+/*about part*/
+.about-box {
+    padding: 80px 0;
+}
+
+.top-head {
+    padding-bottom: 80px;
+}
+
+.top-head h2 {
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 8px;
+}
+
+.top-head p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #999;
+}
+
+.about-img {
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.about-img img {
+    height: 427px;
+    width: 436px;
+    object-fit: cover;
+    align-self: center;
+    margin-bottom: 6px;
+    border-radius: 6px;
+}
+
+.about-img::after {
+    content: '';
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-image: url("../img/frame.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.about-content h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.about-content h4 {
+    font-size: 40px;
+    font-weight: 700;
+    padding: 30px 0;
+}
+
+.about-content p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/*map part*/
+.map-box iframe{
+    height: 450px;
+    width: 100%;
+}
+/*footer part*/
+.footer-part {
+    padding: 50px 0;
+}
+
+.footer-content2 ul li {
+    font-size: 16px;
+    font-weight: 400;
+    color: #999;
+}
+
+.footer-content2 ul li span {
+    padding-right: 16px;
+    color: #222;
+}
+
+/*footer bottom part*/
+.footer-bottom-box {
+    background-color: #222;
+    padding: 10px 0;
+}
+
+.footer-bottom p {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer-bottom a {
+    color: #ffffff;
+}
