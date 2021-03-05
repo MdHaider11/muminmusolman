@@ -1,0 +1,27 @@
+@media (max-width: 576px) {
+    .banner-content {
+        width: 90%;
+    }
+
+    .banner-content p {
+        padding: 0 30px;
+    }
+
+    .banner-content h2 {
+        font-size: 20px;
+    }
+
+    .about-img {
+        width: 100%;
+        height: unset;
+        margin-bottom: 50px;
+    }
+
+    .about-img::after,
+    .about-img img {
+        width: 100%;
+    }
+    .contact-left ul li {
+        padding: 10px 0;
+    }
+}
