@@ -21,6 +21,7 @@ body {
     font-family: 'Hind Siliguri', sans-serif;
 }
 
+.form-control:focus,
 .btn:focus {
     box-shadow: none;
 }
@@ -152,31 +153,73 @@ body {
     font-weight: 400;
 }
 
-/*map part*/
-.map-box iframe{
-    height: 450px;
-    width: 100%;
-}
-/*footer part*/
-.footer-part {
-    padding: 50px 0;
+/*contact part*/
+.contact-part {
+    padding-bottom: 80px;
 }
 
-.footer-content2 ul li {
+.contact-left ul li {
+    padding: 10px 20px;
+}
+
+.contact-left ul li h4 {
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 4px;
+}
+
+.contact-left ul li p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #999999;
+}
+
+.contact-right h2 {
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+
+.contact-right .form-label {
     font-size: 16px;
     font-weight: 400;
     color: #999;
 }
 
-.footer-content2 ul li span {
-    padding-right: 16px;
-    color: #222;
+/*map part*/
+.map-box {
+    line-height: 0;
+}
+
+.map-box iframe {
+    height: 450px;
+    width: 100%;
 }
 
 /*footer bottom part*/
 .footer-bottom-box {
     background-color: #222;
-    padding: 10px 0;
+    padding: 30px 0;
+}
+
+.footer-bottom ul {
+    padding-bottom: 20px;
+}
+
+.footer-bottom ul li i {
+    font-size: 14px;
+    background-color: #fff;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    color: #222;
+    transition: all .4s;
+}
+
+.footer-bottom ul li i:hover {
+    background-color: #666;
+    color: #ffffff;
 }
 
 .footer-bottom p {
